@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\BookingController;
+use App\Http\Controllers\RoomsController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,5 +20,10 @@ use App\Http\Controllers\BookingController;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/rooms',[RoomsController::class, 'show']);
 Route::get('/about',[AboutController::class, 'show']);
+Route::get('/rooms/{id}',[RoomsController::class, 'showSingle']);
 Route::post('/rooms/{id}',[BookingController::class, 'create']);
+Route::get('/contact',[ContactController::class, 'show']);
+Route::post('/contact',[ContactController::class, 'create']);
+Route::get('/',[IndexController::class, 'show']);
