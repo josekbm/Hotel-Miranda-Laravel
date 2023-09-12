@@ -33,7 +33,7 @@ class BookingController extends Controller
                 $booking->specialRequest = $request->specialRequest;
 
                 $booking->save();
-                return redirect()->back()->with('success', "We've received it correctly. Someone from our Team will get back to you soon.");
+                return redirect()->back()->with('success', "We have received it correctly. Someone from our Team will get back to you very soon.");
             } else return redirect()->back()->with('error', "The room is booked for these dates.");
         }
     }
