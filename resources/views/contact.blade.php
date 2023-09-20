@@ -28,8 +28,8 @@ Contact
         <img src="../assets/footer/telf.svg" alt="phone-icon">
         <div class="footer__contact-text">
           <h6 class="text__subtitle--super-small contact-cards__title">Phone Number</h6>
-          <p class="text__footer-paragraph text__footer-paragraph--small text--gray">+34 722 422 688</p>
-          <p class="text__footer-paragraph text__footer-paragraph--small text--gray">+34 91 857 27 51</p>
+          <p class="text__footer-paragraph text__footer-paragraph--small text--gray">+ 97656 8675 7864 7</p>
+          
         </div>
     </div>
 
@@ -38,8 +38,8 @@ Contact
         <img src="../assets/footer/mail.svg" alt="mail-icon">
         <div class="footer__contact-text">
           <h6 class="text__subtitle--super-small text--lightblack contact-cards__title">Mail</h6>
-          <p class="text__footer-paragraph text__footer-paragraph--small text--gray">pabloherrerof@gmail.com</p>
-          <p class="text__footer-paragraph text__footer-paragraph--small text--gray">pherrerofe@uoc.edu</p>
+          <p class="text__footer-paragraph text__footer-paragraph--small text--gray">info@webmail.com</p>
+          
         </div>
     </div>
     <div class="contact-cards__item">
@@ -47,7 +47,7 @@ Contact
         <img src="../assets/footer/address.svg" alt="">
         <div class="footer__contact-text">
           <h6 class="text__subtitle--super-small text--lightblack contact-cards__title">Hotel Address</h6>
-          <p class="text__footer-paragraph text__footer-paragraph--small text--gray">OXYGEN Workspace | Calle Princesa 31, planta 2 28008 Madrid</p>
+          <p class="text__footer-paragraph text__footer-paragraph--small text--gray">19/A, Cirikon City hall Tower New York, NYC</p>
         </div>
     </div>
   </div>
